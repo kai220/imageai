@@ -53,7 +53,7 @@ function setup() {
   
   
   
-  video = createCapture(VIDEO);
+  video = createCapture(constraints);
   video.size(320, 320);
   video.hide();
 
